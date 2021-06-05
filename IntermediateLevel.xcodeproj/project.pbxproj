@@ -16,10 +16,8 @@
 		00F60C04266138F4004E6BCE /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F60C03266138F4004E6BCE /* ChatModel.swift */; };
 		00F60C0626614530004E6BCE /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F60C0526614530004E6BCE /* UserProfileView.swift */; };
 		00FD17CF265E69AA002807BB /* IntermediateLevelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FD17CE265E69AA002807BB /* IntermediateLevelApp.swift */; };
-		00FD17D1265E69AA002807BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FD17D0265E69AA002807BB /* ContentView.swift */; };
 		00FD17D3265E69AE002807BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FD17D2265E69AE002807BB /* Assets.xcassets */; };
 		00FD17D6265E69AE002807BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FD17D5265E69AE002807BB /* Preview Assets.xcassets */; };
-		00FD17DE265ED3D1002807BB /* MagnifyingGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FD17DD265ED3D1002807BB /* MagnifyingGesture.swift */; };
 		00FD17E0265EECF6002807BB /* DragGestureTut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FD17DF265EECF5002807BB /* DragGestureTut.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,11 +32,9 @@
 		00F60C0526614530004E6BCE /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
 		00FD17CB265E69AA002807BB /* IntermediateLevel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntermediateLevel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00FD17CE265E69AA002807BB /* IntermediateLevelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateLevelApp.swift; sourceTree = "<group>"; };
-		00FD17D0265E69AA002807BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		00FD17D2265E69AE002807BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00FD17D5265E69AE002807BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		00FD17D7265E69AE002807BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00FD17DD265ED3D1002807BB /* MagnifyingGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyingGesture.swift; sourceTree = "<group>"; };
 		00FD17DF265EECF5002807BB /* DragGestureTut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureTut.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,8 +121,6 @@
 			isa = PBXGroup;
 			children = (
 				00FD17CE265E69AA002807BB /* IntermediateLevelApp.swift */,
-				00FD17D0265E69AA002807BB /* ContentView.swift */,
-				00FD17DD265ED3D1002807BB /* MagnifyingGesture.swift */,
 				00F60C02266138CE004E6BCE /* Models */,
 				0088F51C2662E8B40080ABFD /* ViewModels */,
 				00DA8715266046EF0080BEF0 /* DragViews */,
@@ -217,14 +211,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00FD17D1265E69AA002807BB /* ContentView.swift in Sources */,
 				00FD17E0265EECF6002807BB /* DragGestureTut.swift in Sources */,
 				0088F51A2662DDD60080ABFD /* MessagesView.swift in Sources */,
 				00DA8717266047130080BEF0 /* ProfileView.swift in Sources */,
 				00F60C0626614530004E6BCE /* UserProfileView.swift in Sources */,
 				0064026E26693B8F00E8119B /* DataServices.swift in Sources */,
 				00F60C04266138F4004E6BCE /* ChatModel.swift in Sources */,
-				00FD17DE265ED3D1002807BB /* MagnifyingGesture.swift in Sources */,
 				00DA8719266058420080BEF0 /* ChatView.swift in Sources */,
 				0088F51E2662E9160080ABFD /* ChatViewModel.swift in Sources */,
 				00FD17CF265E69AA002807BB /* IntermediateLevelApp.swift in Sources */,

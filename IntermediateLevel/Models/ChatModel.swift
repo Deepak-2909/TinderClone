@@ -14,7 +14,7 @@ class ChatModel: Identifiable, Decodable {
     var age: String
     var bio: String
     var message: String
-    var image: String
+    var image: [String]
     
 }
 

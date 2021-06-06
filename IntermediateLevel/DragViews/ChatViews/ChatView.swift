@@ -21,7 +21,7 @@ struct ChatView: View {
                 ForEach(chatVM.chatViewModel){ item in
                     NavigationLink(destination: MessagesView(thisUser: item)) {
                         HStack{
-                            Image(item.image)
+                            Image(item.image[0])
                                 .resizable()
                                 .frame(width: 70, height: 70)
                                 .cornerRadius(12.0)
